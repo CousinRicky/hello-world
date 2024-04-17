@@ -4,7 +4,7 @@ I’m trying to learn this thing.
 Thumbnail test:
 ![Thumbnail](thumbnail.png)
 
-**`Bold code`** test (with a `regular code` control), because Ocular doesn’t seem to handle the nesting.
+**`Bold code`** test (with a `regular code` control), because Okular doesn’t seem to handle the nesting.
 
 A [Link to a project document](a_document.html).
 
@@ -17,7 +17,7 @@ jumps over |    the      |     lazy dog
 
 ---
 
-Okular outdents Step 3 improperly. How does GitHub’s renderer do?
+Okular outdents Step 3 improperly, perhaps due to the pound sign. How does GitHub’s renderer do?
 
 1. Set `global_settings { assumed_gamma 1 }` *before* using any of the keywords.
 
@@ -26,3 +26,9 @@ Okular outdents Step 3 improperly. How does GitHub’s renderer do?
 3. `#declare` (or `#local`) the color with the `srgb` keyword. The resulting identifier contains a linear color. *If and only if* no additional math is required, you may skip the `#declare`/`#local` and use the `srgb` directly in a pigment or light_source.
 
 4. Now, do whatever additional math you need on the identifier. You may do this in a pigment or light_source or wherever.
+
+---
+
+A superscript ^1, and another superscript^2. More superscripts here ^3 and here.^4
+
+^1 Footnote.
