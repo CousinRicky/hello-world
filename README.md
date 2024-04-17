@@ -29,6 +29,14 @@ Okular outdents Step 3 improperly, perhaps due to the pound sign. How does GitHu
 
 ---
 
+A superscript <sup>^1</sup>, and another superscript<sup>^2</sup>. More superscripts here <sup>^3</sup> and here.<sup>^4</sup>
+
+<sup>^1</sup> Footnote.
+
 A superscript ^1, and another superscript^2. More superscripts here ^3 and here.^4
 
 ^1 Footnote.
+
+A superscript [^1], and another superscript[^2]. More superscripts here [^3] and here.[^4]
+
+[^1] Footnote.
